@@ -1,0 +1,34 @@
+# Build artifacts
+/pass/build/
+/pass/bin/
+
+# LLVM/MLIR third party build outputs
+/pass/third_party/llvm-project/build/
+/pass/third_party/llvm-project/out/
+/pass/third_party/llvm-project/.clangd
+/pass/third_party/llvm-project/.cache/
+
+# Backup directories
+*.local.backup/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake-build-*/
+compile_commands.json
+
+# OS/editor
+.DS_Store
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.egg-info/
+dist/
+build/

@@ -1,0 +1,2 @@
+g++ transpose.cpp -o transpose
+./transpose
